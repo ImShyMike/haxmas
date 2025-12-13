@@ -4,9 +4,14 @@
     import ChristmasCountdown from "$lib/ChristmasCountdown.svelte";
     import XmasTree from "$lib/XmasTree.svelte";
     import Presents from "$lib/Presents.svelte";
+  import { redirect } from "@sveltejs/kit";
 
     function comingSoon() {
         alert("Coming very soon!");
+    }
+
+    function faq(){
+      window.location.href = "/faq"
     }
 </script>
 
@@ -17,8 +22,8 @@
 
 <div class="button-container">
     <Button on:click={comingSoon}>Submit</Button>
-    <Button on:click={comingSoon}>Rewards</Button>
-    <Button on:click={comingSoon}>FAQ</Button>
+    <Button on:click={comingSoon}>Shop</Button>
+    <Button on:click="{faq}">FAQ</Button>
     <Button href="/auth/logout">Log Out</Button>
 </div>
 
