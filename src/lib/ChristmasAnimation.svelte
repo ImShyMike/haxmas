@@ -11,18 +11,6 @@
     }
 
     onMount(() => {
-        // Audio Player Logic
-        try {
-            const audio = new Audio();
-            audio.src = "http://144.217.195.24:9035/;stream/1";
-            audio.loop = true;
-            // Auto-play might be blocked by browser without interaction
-            audio
-                .play()
-                .catch((e) => console.log("Audio autoplay blocked:", e));
-        } catch (e) {
-            console.error(e);
-        }
 
         // GSAP Animation Logic
         const one = "#one";
