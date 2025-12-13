@@ -112,7 +112,7 @@
 		window.location.href = '/credits';
 	}
 	function shop() {
-		window.location.href = '/credits';
+		window.location.href = '/shop';
 	}
 </script>
 
