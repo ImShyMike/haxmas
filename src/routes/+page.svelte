@@ -19,67 +19,67 @@
 		},
 		{
 			day: 2,
-			url: '#',
+			url: '/day/2',
 			boxColor: 'hsla(-100, 40%, 35%, 1)',
 			ribbonColor: 'hsla(80, 40%, 60%, 0.75)'
 		},
 		{
 			day: 3,
-			url: '#',
+			url: '/day/3',
 			boxColor: 'hsla(-80, 50%, 40%, 1)',
 			ribbonColor: 'hsla(100, 50%, 65%, 0.75)'
 		},
 		{
 			day: 4,
-			url: '#',
+			url: '/day/4',
 			boxColor: 'hsla(-200, 42%, 38%, 1)',
 			ribbonColor: 'hsla(-20, 42%, 63%, 0.75)'
 		},
 		{
 			day: 5,
-			url: '#',
+			url: '/day/5',
 			boxColor: 'hsla(-120, 48%, 42%, 1)',
 			ribbonColor: 'hsla(60, 48%, 67%, 0.75)'
 		},
 		{
 			day: 6,
-			url: '#',
+			url: '/day/6',
 			boxColor: 'hsla(-180, 44%, 36%, 1)',
 			ribbonColor: 'hsla(0, 44%, 61%, 0.75)'
 		},
 		{
 			day: 7,
-			url: '#',
+			url: '/day/7',
 			boxColor: 'hsla(-140, 46%, 44%, 1)',
 			ribbonColor: 'hsla(40, 46%, 69%, 0.75)'
 		},
 		{
 			day: 8,
-			url: '#',
+			url: '/day/8',
 			boxColor: 'hsla(-90, 50%, 40%, 1)',
 			ribbonColor: 'hsla(90, 50%, 65%, 0.75)'
 		},
 		{
 			day: 9,
-			url: '#',
+			url: '/day/9',
 			boxColor: 'hsla(-160, 43%, 37%, 1)',
 			ribbonColor: 'hsla(20, 43%, 62%, 0.75)'
 		},
 		{
 			day: 10,
-			url: '#',
+			url: '/day/10',
 			boxColor: 'hsla(-110, 47%, 41%, 1)',
 			ribbonColor: 'hsla(70, 47%, 66%, 0.75)'
 		},
 		{
 			day: 11,
-			url: '#',
+			url: '/day/11',
 			boxColor: 'hsla(-130, 45%, 39%, 1)',
 			ribbonColor: 'hsla(50, 45%, 64%, 0.75)'
 		},
 		{
 			day: 12,
-			url: '#',
+			url: '/day/12',
 			boxColor: 'hsla(-170, 41%, 43%, 1)',
 			ribbonColor: 'hsla(10, 41%, 68%, 0.75)'
 		}
