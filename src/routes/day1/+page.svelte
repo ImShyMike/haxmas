@@ -1,9 +1,21 @@
 <script lang="ts">
 	import { marked } from 'marked';
+	import { markedHighlight } from 'marked-highlight';
+	import hljs from 'highlight.js';
 	import { onMount } from 'svelte';
 
 	let markdownContent = $state('');
 	let htmlContent = $state('');
+
+	marked.use(
+		markedHighlight({
+			langPrefix: 'hljs language-',
+			highlight(code, lang) {
+				const language = hljs.getLanguage(lang) ? lang : 'plaintext';
+				return hljs.highlight(code, { language }).value;
+			}
+		})
+	);
 
 	onMount(async () => {
 		const res = await fetch('https://raw.githubusercontent.com/hackclub/hackmas-day-1/refs/heads/main/README.md');
@@ -16,6 +28,7 @@
 
 <svelte:head>
 	<title>Day 1 | Haxmas</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
 </svelte:head>
 
 <div class="day-wrapper">
