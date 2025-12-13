@@ -6,7 +6,7 @@
 	let htmlContent = $state('');
 
 	onMount(async () => {
-		const res = await fetch('/day1.md');
+		const res = await fetch('https://raw.githubusercontent.com/hackclub/hackmas-day-1/refs/heads/main/README.md');
 		if (res.ok) {
 			markdownContent = await res.text();
 			htmlContent = await marked(markdownContent);
