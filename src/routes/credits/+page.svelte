@@ -78,7 +78,7 @@
 			username: 'Astra',
 			url: 'https://astracelestine.nekoweb.org/',
 			desc: 'Day 7',
-			pfp: 'https://ca.slack-edge.com/E09V59WQY1E-U089924LMK8-8a93f050126f-512'
+			pfp: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/b709a840207ec0c0_e09v59wqy1e-u089924lmk8-781361d188a9-512.png'
 		},
 		{
 			username: 'Miguel',
